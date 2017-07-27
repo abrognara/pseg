@@ -15,7 +15,7 @@ var handlers = {
     },
     
     'FoodHelpIntent' : function () {
-        var cType = this.event.request.intent.slots.CuisineType.value;
+        var cType = this.event.request.intent.slots.CuisineType.value; //replace CuisineType with whatever the name of your slot is
         
         switch(cType) {
         case 'sandwich':
